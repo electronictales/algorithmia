@@ -57,7 +57,7 @@ class SinglyLinkedList {
     const node = new Node(value);
     if (this.head === null) {
       this.head = node;
-      this.tail = this.head;
+      this.tail = node;
     } else {
       node.next = this.head;
       this.head = node;
