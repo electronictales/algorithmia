@@ -1,37 +1,54 @@
-function makeCoffee() {
-  console.log("Faire du café");
+function workAsDeveloper() {
+  writeCode();
+  runCode();
+  seeBug();
+  cry();
+  fixBug();
+  beHappyForTwoSeconds();
+  seeAnotherBug();
 }
 
-function openComputer() {
-  wearHoodie();
-  console.log("Ouvrir l'ordinateur");
+function writeCode() {
+    console.log("I'm writing code");
+    startWriting();
+    finishWriting();
+}
+
+function startWriting() {
+  console.log("Okay, time to write something!");
+}
+
+function finishWriting() {
+  console.log("Eh, not bad... Probably!");
+}
+
+function runCode() {
+  console.log("I'm running my code");
 }
 
 function seeBug() {
-  console.log("Voir un bug");
+  console.log('Gosh! A bug!');
 }
 
-function findSolution() {
-  think();
-  console.log("Trouver une solution");
+function cry() {
+    console.log("I'm the worst developer on Earth");
+    moreCry();
 }
 
-function wearHoodie() {
-  console.log("Ah, mon doux hoodie de hackeuse");
+function moreCry() {
+    console.log("Snif snif");
 }
 
-function think() {
-  console.log("Mmmmmmh ?");
+function fixBug() {
+  console.log("I'm the best developer on Earth");
 }
 
-
-function startDay() {
-  makeCoffee();
-  openComputer();
-  seeBug();
-  findSolution();
-  seeBug();
+function beHappyForTwoSeconds() {
+  console.log('I should apply to work at Google');
 }
 
-// On appelle la fonction principale
-startDay();
+function seeAnotherBug() {
+  console.log('Oy, another bug!');
+}
+
+workAsDeveloper();
