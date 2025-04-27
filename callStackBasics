@@ -1,0 +1,37 @@
+function makeCoffee() {
+  console.log("Faire du café");
+}
+
+function openComputer() {
+  wearHoodie();
+  console.log("Ouvrir l'ordinateur");
+}
+
+function seeBug() {
+  console.log("Voir un bug");
+}
+
+function findSolution() {
+  think();
+  console.log("Trouver une solution");
+}
+
+function wearHoodie() {
+  console.log("Ah, mon doux hoodie de hackeuse");
+}
+
+function think() {
+  console.log("Mmmmmmh ?");
+}
+
+
+function startDay() {
+  makeCoffee();
+  openComputer();
+  seeBug();
+  findSolution();
+  seeBug();
+}
+
+// On appelle la fonction principale
+startDay();
