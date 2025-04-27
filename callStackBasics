@@ -52,3 +52,18 @@ function seeAnotherBug() {
 }
 
 workAsDeveloper();
+
+
+
+
+function eatCake(bites) {
+  if (bites === 0) {
+    console.log('The cake is finished!');
+  } else {
+    console.log(`Yum! ${bites} bites of cake left.`);
+    eatCake(bites - 1);
+  }
+}
+
+eatCake(3);
+
